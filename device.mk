@@ -137,6 +137,7 @@ PRODUCT_PACKAGES += \
 
 # RIL
 PRODUCT_PACKAGES += \
+    librmnetctl \
     libxml2
 
 # Live Wallpapers
