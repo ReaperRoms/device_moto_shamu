@@ -470,3 +470,17 @@ PRODUCT_BOOT_JARS += telephony-ext
 # Set bluetooth soc to rome
 PRODUCT_PROPERTY_OVERRIDES += \
     qcom.bluetooth.soc=rome
+
+# Media
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.media.enc.jpeg.quality=100 \
+    ro.media.dec.jpeg.memcap=8000000 \
+    ro.media.enc.hprof.vid.bps=8000000 \
+    ro.config.vc_call_vol_steps=20 \
+    ro.config.media_vol_steps=20 \
+    ro.telephony.call_ring.delay=0 \
+    ring.delay=0
+
+# Google Assistant
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.opa.eligible_device=true 
