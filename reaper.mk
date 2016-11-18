@@ -8,9 +8,6 @@ TARGET_SCREEN_WIDTH := 1440
 # Inherit some common reaper stuff.
 $(call inherit-product, vendor/reaper/config/common_full_phone.mk)
 
-# Enhanced NFC
-$(call inherit-product, vendor/reaper/config/nfc_enhanced.mk)
-
 # Inherit device configuration
 $(call inherit-product, device/moto/shamu/aosp_shamu.mk)
 
