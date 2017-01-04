@@ -406,6 +406,9 @@ endif
 # setup dalvik vm configs.
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
+# setup HWUI configs
+$(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-3072-hwui-memory.mk)
+
 $(call inherit-product-if-exists, hardware/qcom/msm8x84/msm8x84.mk)
 $(call inherit-product-if-exists, vendor/qcom/gpu/msm8x84/msm8x84-gpu-vendor.mk)
 
