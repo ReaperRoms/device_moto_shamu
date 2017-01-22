@@ -25,4 +25,7 @@
 
     <!-- 30 seconds for default screen timeout -->
     <integer name="def_screen_off_timeout">30000</integer>
+
+	<!-- Bluetooth on first boot -->
+	<bool name="def_bluetooth_on">true</bool>
 </resources>
