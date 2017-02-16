@@ -3,7 +3,7 @@
 	"remote": "github",
 	"repository": "ReaperRoms/Reaper_shamu",
 	"target_path": "kernel/motorola/reaper",
-	"branch": "7.1"
+	"branch": "7.1.1"
   },
   {
 	"remote": "github",
@@ -15,6 +15,6 @@
     "remote": "github",
     "repository": "ReaperRoms/vendor_motorola_shamu",
     "target_path": "vendor/motorola/shamu",
-    "branch": "7.1"
+    "branch": "7.1.1"
   }
 ]
