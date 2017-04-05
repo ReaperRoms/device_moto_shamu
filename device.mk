@@ -354,8 +354,10 @@ PRODUCT_COPY_FILES += \
 
 # Modem debugger
 ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
+ifeq (,$(filter aosp_shamu, $(TARGET_PRODUCT)))
 PRODUCT_PACKAGES += \
-    QXDMLogger
+    QXDMLoggerV2
+endif # aosp_shamu
 
 # Disable modem ramdumps
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -484,3 +486,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Google Assistant
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.opa.eligible_device=true 
+
+# ro.product.first_api_level indicates the first api level the device has commercially launched on.
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.product.first_api_level=21
