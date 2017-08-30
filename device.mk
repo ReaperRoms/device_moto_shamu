@@ -513,3 +513,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # miracast props
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.debug.wfd.enable=1﻿
+
+# Build gapps for now
+$(call inherit-product-if-exists, vendor/shamugapps/shamu-gapps.mk)
