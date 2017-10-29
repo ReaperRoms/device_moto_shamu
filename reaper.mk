@@ -6,7 +6,7 @@ TARGET_SCREEN_WIDTH := 1440
 ## $(call inherit-product, vendor/broken/config/gsm.mk)
 
 # Inherit some common reaper stuff.
-$(call inherit-product, vendor/reaper/config/common_full_phone.mk)
+$(call inherit-product, vendor/reaper/configs/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/moto/shamu/aosp_shamu.mk)
