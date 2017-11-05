@@ -1,0 +1,20 @@
+[
+  {
+	"remote": "github",
+	"repository": "ReaperRoms/Reaper_shamu",
+	"target_path": "kernel/motorola/reaper",
+	"branch": "O"
+  },
+  {
+	"remote": "github",
+	"repository": "roguesyko/arm-cortex_a15-linux-gnueabihf-linaro_4.9",
+	"target_path": "prebuilts/gcc/linux-x86/arm/arm-cortex_a15-linux-gnueabihf-linaro_4.9",
+	"branch": "master"
+  },
+  {
+    "remote": "github",
+    "repository": "ReaperRoms/vendor_motorola_shamu",
+    "target_path": "vendor/motorola/shamu",
+    "branch": "O"
+  }
+]
