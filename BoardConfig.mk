@@ -24,7 +24,7 @@ ENABLE_CPUSETS := true
 
 TARGET_NO_BOOTLOADER := true
 
-TARGET_KERNEL_SOURCE := kernel/motorola/shamu
+TARGET_KERNEL_SOURCE := kernel/motorola/reaper
 TARGET_KERNEL_CONFIG := reaper_defconfig
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 
